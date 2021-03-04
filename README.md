@@ -49,8 +49,10 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 - #### Clone
 
+  ```console
   $ git clone https://github.com/matse2005/randomfacts.js
   $ cd randomfacts.js
+  ```
 
 ## Configure app
 
