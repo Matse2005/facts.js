@@ -60,8 +60,24 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 Create a file app.js and inster the following code:
 
+- #### NPM
+
 ```javascript
 const rf = require("randomfacts.js");
+
+rf.getRandom().then((fact) => {
+  console.log("Random: " + fact.fact);
+});
+
+rf.getCategory("example").then((fact) => {
+  console.log("Category: " + fact.fact);
+});
+```
+
+- #### Clone
+
+```javascript
+const rf = require("./index.js");
 
 rf.getRandom().then((fact) => {
   console.log("Random: " + fact.fact);
