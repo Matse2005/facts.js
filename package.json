@@ -1,0 +1,27 @@
+{
+  "name": "randomfacts.js",
+  "version": "1.0.0",
+  "description": "Get a random fact using the RandomFacts api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matse2005/randomfacts.js.git"
+  },
+  "keywords": [
+    "randomfacts.ja",
+    "facts",
+    "random"
+  ],
+  "author": "MatseVH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://docs.randomfacts.online/packages/randomfacts.js/bugs"
+  },
+  "homepage": "https://docs.randomfacts.online/packages/randomfacts.js",
+  "dependencies": {
+    "superagent": "^6.1.0"
+  }
+}
