@@ -80,6 +80,10 @@ rf.getCategory("example").then((fact) => {
 
 - [Documentation](https://docs.randomfacts.online/package/randomfact.js)
 - [Add a fact by yourself](https://docs.randomfacts.online/)
+<<<<<<< HEAD
 - [RandomFacts discord server](https://discord.gg/2mxUZR7pc7)
+=======
+- [RandomFacts discord serber](https://discord.gg/2mxUZR7pc7)
+>>>>>>> 9d0d88407e5f62c94abaf5e276b14ae55016e119
 - [GitHub](https://github.com/matse2005/randomfacts.js)
 - [NPM](https://www.npmjs.com/package/randomfact.js)
