@@ -45,7 +45,9 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 - #### NPM
 
+  ```console
   $ npm install --save randomfacts.js
+  ```
 
 - #### Clone
 
@@ -73,3 +75,11 @@ rf.getCategory("example").then((fact) => {
 ## Running the project
 
     $ node app.js
+
+## Links
+
+- [Documentation](https://docs.randomfacts.online/package/randomfact.js)
+- [Add a fact by yourself](https://docs.randomfacts.online/)
+- [RandomFacts discord serber](https://discord.gg/2mxUZR7pc7)
+- [GitHub](https://github.com/matse2005/randomfacts.js)
+- [NPM](https://www.npmjs.com/package/randomfact.js)
