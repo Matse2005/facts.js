@@ -1,12 +1,12 @@
-# Project Title
+# RandomFacts.js
 
-A nice project with a nice description
+Get a random fact using the RandomFacts api.
 
 ---
 
 ## Requirements
 
-For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
+For development, you will only need Node.js and npm, installed in your environement.
 
 ### Node
 
@@ -39,32 +39,35 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ###
 
-### Yarn installation
-
-After installing node, this project will need yarn too, so just run the following command.
-
-      $ npm install -g yarn
-
 ---
 
 ## Install
 
-    $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
-    $ cd PROJECT_TITLE
-    $ yarn install
+- #### NPM
+
+  $ npm install --save randomfacts.js
+
+- #### Clone
+
+  $ git clone https://github.com/matse2005/randomfacts.js
+  $ cd randomfacts.js
 
 ## Configure app
 
-Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
+Create a file app.js and inster the following code:
 
-- A setting;
-- Another setting;
-- One more setting;
+```javascript
+const rf = require("randomfacts.js");
+
+rf.getRandom().then((fact) => {
+  console.log("Random: " + fact.fact);
+});
+
+rf.getCategory("example").then((fact) => {
+  console.log("Category: " + fact.fact);
+});
+```
 
 ## Running the project
 
-    $ yarn start
-
-## Simple build for production
-
-    $ yarn build
+    $ node app.js
